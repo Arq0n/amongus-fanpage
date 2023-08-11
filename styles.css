@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'amongus';
+    src: 
+        url("./fonts/Impostograph-Regular.otf") format("opentype"),
+        url("./fonts/Impostograph-Regular.ttf") format("truetype");
+}
+
+body {
+    background-color: black;
+    padding: 0;
+    color: white;
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'amongus';
+}
+
+.navbar{
+    display: flex;  
+    color: black;
+    padding: 25px 40px 40px 40px;
+    font-family: 'amongus';
+    text-align: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+a{ 
+    color: white;
+}
+a:visited{ 
+    text-decoration: none; 
+    color: rgba(54, 210, 215, 0.672); 
+}
+a:hover{
+    text-decoration: none; 
+    color: blue; 
+}
+a:focus{
+    text-decoration: none;
+    color: rgb(195, 6, 6); 
+}
+a:hover, a:active{
+    text-decoration: none; 
+    color: white;
+}
+
+.topbox{
+    display: flex;
+    padding: 20px 40px 20px 40px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    text-align: left;
+    flex-basis: 600px;
+    flex-flow: column wrap;
+}
+
+button{
+    color: white;
+    background-color: black;
+    font-family: 'amongus';
+    font-size: 40px;
+    padding: 10px 20px;
+    width: 200px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+button:hover{
+    background-color: gray;
+}
+
+.topbox img{
+    border-radius: 30px;
+}
+
+h1{
+    padding: 0px;
+    font-size: 65px;
+}
+
+h2{
+    padding: 0px;
+    font-size: 45px;
+}
+
+p{
+    padding: 0px;
+}
+
+.charactercontainer{
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    justify-content: space-between;
+}
+
+.characters{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    flex-flow: column wrap;
+    flex-basis: 100px;
+}
