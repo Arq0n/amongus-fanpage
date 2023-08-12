@@ -28,7 +28,7 @@ body {
 .aboutbox{
     display: flex;
     justify-content: space-evenly;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 20px 20px 20px;
     gap: 20px;
 }
 
@@ -62,9 +62,10 @@ a:hover, a:active{
 
 .text{
     display: flex;
-    text-align: left;
-    flex-basis: 600px;
     flex-flow: column wrap;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
 }
 
 button{
@@ -133,13 +134,18 @@ p{
     font-size: 55px;
 }
 
-.author p{
-    display: block;
-    padding: 10px 20px 20px 20px;
+.author{
+    padding: 0px 0px 20px 0px;
     margin-top: 0px;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.author p{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
     font-size: 70px;
-    width: 1300px;
-    text-align: right;
 }
 
 .joinbox{
